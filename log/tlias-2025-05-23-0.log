@@ -1,0 +1,320 @@
+2025-05-23 08:48:23.424 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6h50m5s884ms528µs400ns).
+2025-05-23 11:19:58.764 [http-nio-8080-exec-9] INFO  com.itheima.controller.DeptController-查询部门列表
+2025-05-23 11:19:58.768 [http-nio-8080-exec-7] INFO  com.itheima.controller.EmpController-查询请求参数： EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-05-23 18:08:44.269 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6h36m28s518ms60µs).
+2025-05-23 20:31:40.695 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-23 20:31:40.753 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-05-23 20:31:40.760 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-05-23 20:31:40.764 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-05-23 21:14:48.022 [main] INFO  com.itheima.TliasApplication-Starting TliasApplication using Java 17.0.15 with PID 41564 (C:\Users\Wulaaer\Desktop\JavaProject\Tlias-web-management\Tlias\target\classes started by Wulaaer in C:\Users\Wulaaer\Desktop\JavaProject\Tlias-web-management)
+2025-05-23 21:14:48.024 [main] INFO  com.itheima.TliasApplication-No active profile set, falling back to 1 default profile: "default"
+2025-05-23 21:14:48.777 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-05-23 21:14:48.788 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-23 21:14:48.789 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-05-23 21:14:48.789 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-23 21:14:48.831 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-05-23 21:14:48.831 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 768 ms
+2025-05-23 21:14:49.336 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-05-23 21:14:49.350 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-05-23 21:14:49.356 [main] INFO  com.itheima.TliasApplication-Started TliasApplication in 1.621 seconds (process running for 2.763)
+2025-05-23 21:15:31.153 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-23 21:15:31.153 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-05-23 21:15:31.154 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-05-23 21:15:31.196 [http-nio-8080-exec-2] INFO  com.itheima.controller.UploadController-上传文件：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@4c55872f
+2025-05-23 21:15:31.834 [http-nio-8080-exec-2] WARN  com.aliyun.oss-[Server]Unable to execute HTTP request: You have no right to access this object because of bucket acl.
+[ErrorCode]: AccessDenied
+[RequestId]: 683074F29F27CB3936BEFE1F
+[HostId]: java-ai.oss-cn-beijing.aliyuncs.com
+[EC]: 0003-00000001
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>You have no right to access this object because of bucket acl.</Message>
+  <RequestId>683074F29F27CB3936BEFE1F</RequestId>
+  <HostId>java-ai.oss-cn-beijing.aliyuncs.com</HostId>
+  <EC>0003-00000001</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000001</RecommendDoc>
+</Error>
+
+2025-05-23 21:15:31.840 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.aliyun.oss.OSSException: You have no right to access this object because of bucket acl.
+[ErrorCode]: AccessDenied
+[RequestId]: 683074F29F27CB3936BEFE1F
+[HostId]: java-ai.oss-cn-beijing.aliyuncs.com
+[EC]: 0003-00000001
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>You have no right to access this object because of bucket acl.</Message>
+  <RequestId>683074F29F27CB3936BEFE1F</RequestId>
+  <HostId>java-ai.oss-cn-beijing.aliyuncs.com</HostId>
+  <EC>0003-00000001</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000001</RecommendDoc>
+</Error>
+] with root cause
+com.aliyun.oss.OSSException: You have no right to access this object because of bucket acl.
+[ErrorCode]: AccessDenied
+[RequestId]: 683074F29F27CB3936BEFE1F
+[HostId]: java-ai.oss-cn-beijing.aliyuncs.com
+[EC]: 0003-00000001
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>You have no right to access this object because of bucket acl.</Message>
+  <RequestId>683074F29F27CB3936BEFE1F</RequestId>
+  <HostId>java-ai.oss-cn-beijing.aliyuncs.com</HostId>
+  <EC>0003-00000001</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000001</RecommendDoc>
+</Error>
+
+	at com.aliyun.oss.common.utils.ExceptionFactory.createOSSException(ExceptionFactory.java:103)
+	at com.aliyun.oss.internal.OSSErrorResponseHandler.handle(OSSErrorResponseHandler.java:92)
+	at com.aliyun.oss.common.comm.ServiceClient.handleResponse(ServiceClient.java:284)
+	at com.aliyun.oss.common.comm.ServiceClient.sendRequestImpl(ServiceClient.java:156)
+	at com.aliyun.oss.common.comm.ServiceClient.sendRequest(ServiceClient.java:85)
+	at com.aliyun.oss.internal.OSSOperation.send(OSSOperation.java:134)
+	at com.aliyun.oss.internal.OSSOperation.doOperation(OSSOperation.java:192)
+	at com.aliyun.oss.internal.OSSOperation.doOperation(OSSOperation.java:153)
+	at com.aliyun.oss.internal.OSSObjectOperation.writeObjectInternal(OSSObjectOperation.java:1173)
+	at com.aliyun.oss.internal.OSSObjectOperation.putObject(OSSObjectOperation.java:107)
+	at com.aliyun.oss.OSSClient.putObject(OSSClient.java:627)
+	at com.aliyun.oss.OSSClient.putObject(OSSClient.java:611)
+	at com.aliyun.oss.OSSClient.putObject(OSSClient.java:605)
+	at com.itheima.utils.AliyunOSSOperator.upload(AliyunOSSOperator.java:42)
+	at com.itheima.controller.UploadController.upload(UploadController.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-05-23 21:16:49.612 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-23 21:16:49.670 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-05-23 21:16:52.383 [main] INFO  com.itheima.TliasApplication-Starting TliasApplication using Java 17.0.15 with PID 39312 (C:\Users\Wulaaer\Desktop\JavaProject\Tlias-web-management\Tlias\target\classes started by Wulaaer in C:\Users\Wulaaer\Desktop\JavaProject\Tlias-web-management)
+2025-05-23 21:16:52.384 [main] INFO  com.itheima.TliasApplication-No active profile set, falling back to 1 default profile: "default"
+2025-05-23 21:16:52.984 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-05-23 21:16:52.992 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-23 21:16:52.993 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-05-23 21:16:52.993 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-23 21:16:53.024 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-05-23 21:16:53.025 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 611 ms
+2025-05-23 21:16:53.422 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-05-23 21:16:53.434 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-05-23 21:16:53.444 [main] INFO  com.itheima.TliasApplication-Started TliasApplication in 1.314 seconds (process running for 1.986)
+2025-05-23 21:17:05.829 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-23 21:17:05.829 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-05-23 21:17:05.830 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-05-23 21:17:05.869 [http-nio-8080-exec-2] INFO  com.itheima.controller.UploadController-上传文件：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@52b4e462
+2025-05-23 21:18:55.408 [http-nio-8080-exec-10] INFO  com.itheima.controller.DeptController-查询部门列表
+2025-05-23 21:18:55.416 [http-nio-8080-exec-8] INFO  com.itheima.controller.EmpController-查询请求参数： EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-05-23 21:18:55.430 [http-nio-8080-exec-10] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-05-23 21:18:55.553 [http-nio-8080-exec-10] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78abe54
+2025-05-23 21:18:55.554 [http-nio-8080-exec-10] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-05-23 21:19:02.408 [http-nio-8080-exec-7] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver-Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2025-05-23 21:19:32.512 [http-nio-8080-exec-4] INFO  com.itheima.controller.UploadController-上传文件：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@909d6de
+2025-05-23 21:20:04.764 [http-nio-8080-exec-9] INFO  com.itheima.controller.EmpController-增加员工： Emp(id=null, username=Wulaaer, password=null, name=戈雅, gender=1, phone=18173294809, job=5, salary=10000, image=https://java-web-wulaaer.oss-cn-guangzhou.aliyuncs.com/2025/05/d18f80a6-8333-47d1-a649-eac9650a109a.jpg, entryDate=2025-05-22, deptId=2, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2025-05-01, end=2025-05-14, company=华南师范大学, job=学生), EmpExpr(id=null, empId=null, begin=2025-05-30, end=2025-06-25, company=阿里, job=开发)])
+2025-05-23 21:20:04.771 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.itheima.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-05-23 21:20:04.771 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@109218179 wrapping com.mysql.cj.jdbc.ConnectionImpl@78abe54] for JDBC transaction
+2025-05-23 21:20:04.772 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@109218179 wrapping com.mysql.cj.jdbc.ConnectionImpl@78abe54] to manual commit
+2025-05-23 21:20:04.886 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction rollback
+2025-05-23 21:20:04.886 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Rolling back JDBC transaction on Connection [HikariProxyConnection@109218179 wrapping com.mysql.cj.jdbc.ConnectionImpl@78abe54]
+2025-05-23 21:20:04.888 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@109218179 wrapping com.mysql.cj.jdbc.ConnectionImpl@78abe54] after transaction
+2025-05-23 21:20:04.891 [http-nio-8080-exec-9] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'Wulaaer' for key 'emp.username'
+### The error may exist in com/itheima/mapper/EmpMapper.java (best guess)
+### The error may involve com.itheima.mapper.EmpMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into emp(username, name, gender, phone, job, salary, image, entry_date, dept_id, create_time, update_time) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'Wulaaer' for key 'emp.username'
+; Duplicate entry 'Wulaaer' for key 'emp.username'] with root cause
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'Wulaaer' for key 'emp.username'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:382)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy87.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy85.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:333)
+	at jdk.proxy2/jdk.proxy2.$Proxy66.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy74.insert(Unknown Source)
+	at com.itheima.service.impl.EmpServiceImpl.save(EmpServiceImpl.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at com.itheima.service.impl.EmpServiceImpl$$SpringCGLIB$$0.save(<generated>)
+	at com.itheima.controller.EmpController.save(EmpController.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-05-23 21:20:56.015 [http-nio-8080-exec-5] INFO  com.itheima.controller.EmpController-增加员工： Emp(id=null, username=Aixia, password=null, name=戈雅, gender=1, phone=18173294809, job=5, salary=10000, image=https://java-web-wulaaer.oss-cn-guangzhou.aliyuncs.com/2025/05/d18f80a6-8333-47d1-a649-eac9650a109a.jpg, entryDate=2025-05-22, deptId=2, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2025-05-01, end=2025-05-14, company=华南师范大学, job=学生), EmpExpr(id=null, empId=null, begin=2025-05-30, end=2025-06-25, company=阿里, job=开发)])
+2025-05-23 21:20:56.015 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.itheima.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-05-23 21:20:56.015 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@468803564 wrapping com.mysql.cj.jdbc.ConnectionImpl@78abe54] for JDBC transaction
+2025-05-23 21:20:56.015 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@468803564 wrapping com.mysql.cj.jdbc.ConnectionImpl@78abe54] to manual commit
+2025-05-23 21:20:56.025 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2025-05-23 21:20:56.025 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@468803564 wrapping com.mysql.cj.jdbc.ConnectionImpl@78abe54]
+2025-05-23 21:20:56.029 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@468803564 wrapping com.mysql.cj.jdbc.ConnectionImpl@78abe54] after transaction
+2025-05-23 21:20:56.039 [http-nio-8080-exec-1] INFO  com.itheima.controller.EmpController-查询请求参数： EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-05-23 21:35:46.822 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-23 21:35:46.876 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-05-23 21:35:46.879 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-05-23 21:35:46.884 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-05-23 21:35:48.530 [main] INFO  com.itheima.TliasApplication-Starting TliasApplication using Java 17.0.15 with PID 32864 (C:\Users\Wulaaer\Desktop\JavaProject\Tlias-web-management\Tlias\target\classes started by Wulaaer in C:\Users\Wulaaer\Desktop\JavaProject\Tlias-web-management)
+2025-05-23 21:35:48.531 [main] INFO  com.itheima.TliasApplication-No active profile set, falling back to 1 default profile: "default"
+2025-05-23 21:35:49.115 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-05-23 21:35:49.124 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-23 21:35:49.125 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-05-23 21:35:49.125 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-23 21:35:49.159 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-05-23 21:35:49.159 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 602 ms
+2025-05-23 21:35:49.560 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-05-23 21:35:49.576 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-05-23 21:35:49.582 [main] INFO  com.itheima.TliasApplication-Started TliasApplication in 1.309 seconds (process running for 1.933)
+2025-05-23 21:36:46.435 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-23 21:36:46.435 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-05-23 21:36:46.435 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-05-23 21:36:46.470 [http-nio-8080-exec-2] INFO  com.itheima.controller.UploadController-上传文件：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@59736dfd
+2025-05-23 22:00:44.289 [http-nio-8080-exec-3] INFO  com.itheima.controller.DeptController-查询部门列表
+2025-05-23 22:00:44.301 [http-nio-8080-exec-4] INFO  com.itheima.controller.EmpController-查询请求参数： EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-05-23 22:00:44.309 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-05-23 22:00:44.430 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@30955ee4
+2025-05-23 22:00:44.432 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-05-23 22:01:19.971 [http-nio-8080-exec-6] INFO  com.itheima.controller.EmpController-增加员工： Emp(id=null, username=vivian, password=null, name=薇薇安, gender=2, phone=11451419199, job=1, salary=10000, image=, entryDate=2025-05-01, deptId=1, createTime=null, updateTime=null, deptName=null, exprList=[])
+2025-05-23 22:01:19.976 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.itheima.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-05-23 22:01:19.978 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@851586885 wrapping com.mysql.cj.jdbc.ConnectionImpl@30955ee4] for JDBC transaction
+2025-05-23 22:01:19.979 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@851586885 wrapping com.mysql.cj.jdbc.ConnectionImpl@30955ee4] to manual commit
+2025-05-23 22:01:19.988 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2025-05-23 22:01:19.989 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@851586885 wrapping com.mysql.cj.jdbc.ConnectionImpl@30955ee4]
+2025-05-23 22:01:20.028 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@851586885 wrapping com.mysql.cj.jdbc.ConnectionImpl@30955ee4] after transaction
+2025-05-23 22:01:20.038 [http-nio-8080-exec-7] INFO  com.itheima.controller.EmpController-查询请求参数： EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-05-23 22:01:33.374 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-23 22:01:33.427 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-05-23 22:01:33.430 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-05-23 22:01:33.434 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.

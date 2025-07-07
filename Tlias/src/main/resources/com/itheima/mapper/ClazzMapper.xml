@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--定义Mapper映射文件的约束和基本结构-->
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itheima.mapper.ClazzMapper">
+    <select id="list" resultType="com.itheima.pojo.Clazz">
+        select
+        c.*,
+        e.id masterId,
+        e.name masterName,
+        CASE
+        WHEN NOW() &lt; c.begin_date THEN '未开班'
+        WHEN NOW() BETWEEN c.begin_date AND c.end_date THEN '在读中'
+        WHEN NOW() &gt; c.end_date THEN '已结课'
+        ELSE '未知状态'
+        END AS status
+        from clazz as c
+        left join emp as e on c.master_id = e.id
+        <where>
+            <if test="name != null and name != ''">
+                c.name like concat('%',#{name},'%')
+            </if>
+            <if test="begin != null and end != null">
+                and c.end_date between #{begin} and #{end}
+            </if>
+        </where>
+        order by c.update_time DESC
+    </select>
+    <update id="update">
+        update clazz
+        <set>
+            <if test="name != null and name != ''">name = #{name},</if>
+            <if test="room != null and room != ''">room = #{room},</if>
+            <if test="beginDate != null">begin_date = #{beginDate},</if>
+            <if test="endDate != null">end_date = #{endDate},</if>
+            <if test="masterId != null">master_id = #{masterId},</if>
+            <if test="subject != null">subject = #{subject},</if>
+            <if test="updateTime != null">update_time = #{updateTime},</if>
+        </set>
+        where id = #{id}
+    </update>
+</mapper>
